@@ -3,7 +3,7 @@ import ScrollReveal from "../scroll-reveal";
 
 const TechStack = () => {
   return (
-    <section id="lab" className="relatie py-28">
+    <section id="lab" className="relative py-28">
       <ScrollReveal stagger={0.08} className="text-center">
         <p className="text-white/70 mb-6">
           I’m currently looking to join a{" "}
