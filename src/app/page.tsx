@@ -1,8 +1,8 @@
-import ContactSection from "@/components/ContactSection";
+import ContactSection from "@/components/contact-section";
 import HereSection from "@/components/here-section";
 import ProjectsSection from "@/components/project-section";
 import TechStack from "@/components/tech-stack";
-import WorkExperience from "@/components/WorkExperience";
+import WorkExperience from "@/components/work-experience";
 
 const Home = () => {
   return (
