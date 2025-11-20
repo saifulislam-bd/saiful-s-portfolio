@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FaFacebook } from "react-icons/fa";
 
 import { Typewriter } from "react-simple-typewriter";
-import ScrollReveal from "./ScrollReveal";
+import ScrollReveal from "../scroll-reveal";
 
 export default function HereSection() {
   return (
@@ -42,7 +42,7 @@ export default function HereSection() {
                   </div>
                   <div className="-mt-6 md:-mt-10 shrink-0">
                     <span>Hello! I am </span>
-                    <span className="text-[#a78bfa]">Ibrahim Memon</span>
+                    <span className="text-[#a78bfa]">Saiful Islam</span>
                   </div>
                 </div>
               </div>
