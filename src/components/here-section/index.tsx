@@ -20,7 +20,7 @@ export default function HereSection() {
             <div className="pointer-events-none absolute -inset-12 md:-inset-24 rounded-full bg-linear-to-b from-[#7c3aed] vai-[#6d28d9]/30 to-transparent blur-3xl opacity-90"></div>
             <div className="relative">
               <Image
-                src="/images/avatar.png"
+                src="/avatar.avif"
                 alt="avatar image"
                 width={240}
                 height={240}
@@ -99,7 +99,7 @@ export default function HereSection() {
             />
           </h2>
           <p>
-            Currently, I'm a Software Engineer at{" "}
+            Currently, I&apos;m a Software Engineer at{" "}
             <span className="inline-flex items-center  gap-1 text-[#1877F2]">
               <FaFacebook className="size-4" aria-hidden />
               Facebook,

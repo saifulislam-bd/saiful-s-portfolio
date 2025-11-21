@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { HiBars3 } from "react-icons/hi2";
@@ -24,11 +25,10 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4 flex items-center justify-between">
         {/* logo */}
         <Link href="/" className="text-3xl font-extrabold text-[#7e22ce]">
-          {" "}
-          ∑{" "}
+          <Image src="/logo.png" alt="logo" width={100} height={100} />
         </Link>
 
-        {/* desktop naviation menu */}
+        {/* desktop navigation menu */}
         <nav className="hidden md:flex space-x-10 font-medium text-lg text-white/80">
           <Link
             href="#home"
@@ -64,7 +64,7 @@ const Header = () => {
 
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden p-2 rounded text-white/80 hover:text-[#a855f7] trasition duration-200"
+          className="md:hidden p-2 rounded text-white/80 hover:text-[#a855f7] transition duration-200"
         >
           <HiBars3 className="size-6" />
         </button>
