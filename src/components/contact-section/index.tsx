@@ -10,9 +10,9 @@ const ContactSection = () => {
           Contact
         </h3>
         <p className="text-sm text-white/60 max-w-xl">
-          I’m currently looking to join a cross-functional team that values
-          improving people’s lives through accessible design, or have a project
-          in mind? Let’s connect.
+          I&apos;m currently looking to join a cross-functional team that values
+          improving people&apos;s lives through accessible design, or have a
+          project in mind? Let&apos;s connect.
         </p>
         <div className="mt-6 text-white/80">
           <Link
@@ -25,7 +25,7 @@ const ContactSection = () => {
 
         <div className="mt-6 flex items-center gap-4 text-white/80">
           <Link
-            href="https://www.linkedin.com/in/md-rafiuddin/"
+            href="https://www.linkedin.com/in/saiful-islam-dev22/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#a855f7]"
@@ -33,7 +33,7 @@ const ContactSection = () => {
             <FaInstagram className="size-5" />
           </Link>
           <Link
-            href="https://www.linkedin.com/in/md-rafiuddin/"
+            href="https://www.linkedin.com/in/saiful-islam-dev22/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#a855f7]"
@@ -41,7 +41,7 @@ const ContactSection = () => {
             <FaDribbble className="size-5" />
           </Link>
           <Link
-            href="https://www.linkedin.com/in/md-rafiuddin/"
+            href="https://www.linkedin.com/in/saiful-islam-dev22/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#a855f7]"
